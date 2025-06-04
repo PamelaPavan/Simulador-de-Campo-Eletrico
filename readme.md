@@ -23,12 +23,12 @@ O mascote Maxwell fala com o usuário e exibe explicações baseadas nas cargas 
 
 1. Instale as dependências necessárias
 
-No terminal escreva:
+No terminal (na pasta src) escreva:
 ```
 pip install -r requirements.txt
 ```
 
-2.  Execute o servidor no diretório src\app.py
+2.  Execute o servidor (na pasta src):
 
 ```
 python app.py
