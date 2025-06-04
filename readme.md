@@ -27,7 +27,7 @@ Este projeto é uma aplicação web interativa desenvolvida com Python (Flask) e
 
 2. ### Como Utilizar a Aplicação
 
-1. Insira os valores das cargas nos campos disponíveis e clique em **Simular**  
+- Insira os valores das cargas nos campos disponíveis e clique em **Simular**  
 <img src="src/static/assets/img2.png">
 
 📸 Demonstração  
