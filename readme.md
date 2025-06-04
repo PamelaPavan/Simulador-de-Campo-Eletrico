@@ -28,7 +28,7 @@ No terminal escreva:
 pip install -r requirements.txt
 ```
 
-2.  Execute o servidor
+2.  Execute o servidor no diretório src\app.py
 
 ```
 python app.py
