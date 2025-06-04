@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Página com Maxwell</title>
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    </head>
+    <body>
+        <h1 class="titulo-principal">
+            Potencial Elétrico, Linhas Equipotenciais e Linhas de Campo
+        </h1>
+       
+        <div class="entrada-cargas">
+            <p class="texto-entrada">
+                Insira nos campos abaixo, os valores das cargas que deseja para a simulação:
+            </p>
+
+            <div class="inputs-wrapper">
+                <label for="valor_carga1">Carga 1 (nC):</label>
+                <input type="number" id="valor_carga1" name="valor_carga1" value="1" step="0.1" />
+
+                <label for="valor_carga2">Carga 2 (nC):</label>
+                <input type="number" id="valor_carga2" name="valor_carga2" value="1" step="0.1" />
+
+                <button id="atualizarSimulacao">Simular</button>
+            </div>
+        </div>
+
+
+
+        <div class="layout-horizontal">
+
+        <!-- Lado esquerdo -->
+        <div class="lado-esquerdo">
+            <div class="container">
+                <div class="content-wrapper">
+                    <div class="balao-manual" id="fala-maxwell">
+                        <!-- Contêiner do botão -->
+                            <div class="botoes-audio">
+                                <button class="btnToggleAudio" onclick="toggleAudio()" id="botaoAudio">🔊</button>
+                            </div>
+                        <p id="texto-maxwell"></p>
+                        <div class="botoes-slider">
+                            <button id="anterior" onclick="handleNavegacao(-1)">←</button>
+                            <button id="proximo" onclick="handleNavegacao(1)">→</button>                            
+                        </div>
+                        <div class="balao-triangulo"></div>
+                        
+                    </div>
+                    <img class="maxwell" src="{{ url_for('static', filename='assets/Maxwell_Infantil.png') }}" alt="Imagem">
+                </div>
+                    
+
+                    
+                </div>
+            </div>
+        
+
+            <!-- Lado direito -->
+            <div class="lado-direito">
+                <!-- Loader -->
+                <div id="loader" style="display: none; text-align: center;">
+                <img src="/static/assets/loading.gif" alt="Carregando..." width="80">
+                </div>
+
+                <!-- GIF da simulação -->
+                <img id="simulacaoGIF" style="display: none; margin: 0 auto;" />
+            </div>
+
+        </div>
+            
+
+        <script src="{{ url_for('static', filename='js/index.js') }}"></script>
+
+    </body>
+    
+</html>
