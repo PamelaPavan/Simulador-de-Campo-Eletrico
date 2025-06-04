@@ -4,31 +4,51 @@
 Este projeto é uma aplicação web interativa desenvolvida com Python (Flask) e JavaScript. Ele permite visualizar e compreender de forma animada os conceitos de campo elétrico, linhas equipotenciais e potencial elétrico gerados por duas cargas puntiformes. A aplicação conta com a presença do Maxwell, um assistente virtual que narra o conteúdo apresentado para tornar a experiência mais inclusiva e didática.
 </p>
 
+---
 
+### 📑 Sumário
 
-### 🧠 Funcionalidades
+1. [🧠 Funcionalidades](#funcionalidades)
+2. [💻 Como Utilizar a Aplicação](#como-utilizar-a-aplicação)
+3. [⚙️ Como Rodar a Aplicação](#como-rodar-a-aplicação)
+4. [📁 Estrutura do Projeto](#estrutura-do-projeto)
+5. [📦 Requisitos Python](#requisitos-python)
+6. [👩‍💻 Autor](#autor)
 
-- Geração automática de animações que mostram as linhas de campo e equipotenciais.
+---
 
-- Leitura em voz do conteúdo exibido (com opção de ativar/desativar som).
+1. ### Funcionalidades
 
+- Geração automática de animações que mostram as linhas de campo e equipotenciais.  
+- Leitura em voz do conteúdo exibido (com opção de ativar/desativar som).  
 - Textos explicativos dinâmicos com navegação.
 
-Como utilizar:
-1. Insira os valores das cargas nos campos disponíveis e clique em simular
+---
+
+2. ### Como Utilizar a Aplicação
+
+1. Insira os valores das cargas nos campos disponíveis e clique em **Simular**  
 <img src="src/static/assets/img2.png">
-📸 Demonstração
+
+📸 Demonstração  
 <img src="src/static/assets/image.png">
-O mascote Maxwell fala com o usuário e exibe explicações baseadas nas cargas inseridas.
 
-1. Instale as dependências necessárias
+O mascote **Maxwell** fala com o usuário e exibe explicações baseadas nas cargas inseridas.
 
-No terminal (na pasta src) escreva:
+---
+
+3. ### Como Rodar a Aplicação
+
+Abra o terminal na pasta `src`.
+
+1. Instale as dependências necessárias:
+
+Escreva:
 ```
 pip install -r requirements.txt
 ```
 
-2.  Execute o servidor (na pasta src):
+2.  Execute o servidor:
 
 ```
 python app.py
@@ -42,7 +62,7 @@ Abra o navegador e acesse:
 http://127.0.0.1:5000
 ```
 
-📁 Estrutura do projeto
+ 4. ### Estrutura do projeto
 
 ```
 
@@ -56,7 +76,7 @@ http://127.0.0.1:5000
 └── README.md               # Este arquivo
 ```
 
-📦 Requisitos Python
+5. ### Requisitos Python
 
     Python 3.8+
 
@@ -67,7 +87,7 @@ http://127.0.0.1:5000
     Matplotlib
 
 
-### Autor
+6. ### Autor
 
 <p>Pâmela Aliny Cleto Pavan</p>
 
