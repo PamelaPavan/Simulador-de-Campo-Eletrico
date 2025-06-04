@@ -16,9 +16,9 @@ Este projeto é uma aplicação web interativa desenvolvida com Python (Flask) e
 
 Como utilizar:
 1. Insira os valores das cargas nos campos disponíveis e clique em simular
-<img src="static/assets/img2.png">
+<img src="src/static/assets/img2.png">
 📸 Demonstração
-<img src="static/assets/image.png">
+<img src="src/static/assets/image.png">
 O mascote Maxwell fala com o usuário e exibe explicações baseadas nas cargas inseridas.
 
 1. Instale as dependências necessárias
